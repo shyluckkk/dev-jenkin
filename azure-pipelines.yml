@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: hotel
+pool: demo
 
 steps:
 - task: Maven@4
