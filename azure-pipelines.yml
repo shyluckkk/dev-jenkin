@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: demo
+pool: model
 
 steps:
 - task: Maven@4
