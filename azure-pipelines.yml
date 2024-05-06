@@ -6,11 +6,10 @@
 trigger:
 - main
 
-pool: 'model'
-  
-
+pool:
+  shyluck
 steps:
-- task: Maven@4
+- task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'compile'
